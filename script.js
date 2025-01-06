@@ -1,5 +1,5 @@
 const images = [
-    { src: 'https://files.catbox.moe/441v93.jpg', name: 'Maria Mikhailovna Kujou', wifeNumber: 1 },
+    { src: 'https://files.catbox.moe/441v93.jpg', name: 'Maria Mikhailovna Kujou', wifeNumber: 'paling utama' },
     { src: 'https://files.catbox.moe/63zvmu.jpg', name: 'Shiina Mahiru', wifeNumber: 2 },
     { src: 'https://files.catbox.moe/cdqa1v.jpg', name: 'Alisa Mikhailovna Kujou', wifeNumber: 3 },
 ];
