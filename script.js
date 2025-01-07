@@ -12,14 +12,8 @@ images.forEach(image => {
     item.innerHTML = `
         <img src="${image.src}" alt="${image.name}">
         <div class="caption">${image.name}</div>
-        <div class="body-text">Istri yang ke-${image.wifeNumber}</div>
+        <div class="body-text">Istri Kyz yang ke-${image.wifeNumber}</div>
     `;
-    item.addEventListener('click', () => {
-        alert(`Mencari informasi tentang ${image.name}, Istri Kyz yang Ke-${image.wifeNumber}. Harap tunggu...`);
-        setTimeout(() => {
-            window.location.href = `https://www.google.com/search?q=${encodeURIComponent(image.name)}`;
-        }, 1000);
-    });
     gallery.appendChild(item);
 });
 
